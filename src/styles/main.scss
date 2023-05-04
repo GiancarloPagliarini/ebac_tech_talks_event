@@ -1,5 +1,9 @@
 @use './config/reset';
 @use './hero';
+@use './components/infos-bar';
+@use './components/buttons';
+@use './event';
+@use './config/variables';
 
 .container {
     max-width: 960px;
